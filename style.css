@@ -1,0 +1,69 @@
+body,html{
+    width:100%;
+    height:100%;
+}
+body{
+    margin:0px;
+    padding:0px;
+    color: #696969;
+    /*fontの種類*/
+    font-family:"ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","MS PGothic",sans-serif;
+    /*フォントのサイズ*/
+    font-size: 15px;
+    /*行間*/
+    line-height: 2;
+    /*背景の背景*/
+    background:#ffebcd;
+    -webkit-text-size-adjust: none;
+}
+h1,
+h2{
+    margin: 0px;
+    padding:0px;
+    font-size:100%;
+    font-weight:normal;
+
+}
+a {
+    color: #666;
+    /*リンクテキストの色*/
+    transition: 0.4s;
+    /*マウスオン時の移り変わるまでの時間設定。0.4秒。*/
+}
+a:hover {
+    color: #cd6052;
+    /*マウスオン時の文字色*/
+    text-decoration: none;
+    /*マウスオン時に下線を消す*/
+}
+.contents{
+    overflow:hidden;
+    margin: 0% 10% 0% 10%;
+    /*余白(上右下左)*/
+    padding:0 20% 1% 20%;
+}
+.box{
+    margin: 0% 10% 0% 10%;
+    padding: 0% 20% 0 20%;
+    border:1px solid #696969;
+}
+.contents.bg1{
+    background:#f5deb3;
+}
+.contents h1{
+    font-size: 40px;
+    /*文字サイズ*/
+    margin-bottom: 20px;
+    /*下に空ける余白*/
+    text-align: center;
+    /*文字をセンタリング*/
+    color: #333;
+    /*文字色*/
+}
+.contents h1 span{
+    display:block;
+    font-size: 12px;
+}
+.contents.bg2 {
+    background: #f5deb3;
+}
