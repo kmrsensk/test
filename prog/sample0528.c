@@ -1,0 +1,64 @@
+#include <stdio.h>
+/*
+int main(void)
+{
+    int x;
+    printf("x ? ");
+    scanf("%d", &x); //入力された整数値の読み取り
+    
+    if (x % 2 == 0) {
+        printf("%d is even number\n", x);//偶数
+    } else {
+        printf("%d is odd number\n", x); //奇数
+    }
+
+    return 0;
+}
+*/
+/*
+int main(void){
+    int x=0;
+    for(int i=0;i<=10;i++)
+    {
+        printf("x=?\n");
+        scanf("%d",&x);
+        if(x % 3==0){
+            if(x%5==0){
+            printf("FizzBuzz\n");
+            }else{
+                printf("Fizz\n");
+            }
+        }else if(x%5==0){
+            printf("Buzz\n");
+        }else{
+            printf("none\n");
+        }
+    }
+    return 0;
+}
+*/
+int main(void){
+    double x;
+    printf("enter '-1' ,if you exit to this loop.\n");
+    while(1){
+        printf("please enter the number\n");
+        scanf("%lf",&x);
+        if(x==-1){
+            break;
+        }else if(x>100||x<0){
+            printf("miss number!\n");
+        }else if(x >89&&x < 101){
+            printf("S!\n");
+        }else if (x > 79 && x <91)
+        {
+            printf("A!\n");
+        }else if (x >69 && x < 81)
+        {
+            printf("B!\n");
+        }else if (x> 59 && x < 71)
+        {
+            printf("C!\n");
+        }else{printf("D!\n");}
+    }
+    return 0;
+}

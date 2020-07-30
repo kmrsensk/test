@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main(){
+    int n;
+    while(1){
+        if(n==-1){
+            break;
+        }
+    printf("何個保存しますか？");
+    scanf("%d", &n);
+    int a[n],b;
+    printf("数字を%d個入力してください。\n", n);
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d:", i+1);
+        scanf("%d", &a[i]);
+    }
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = i + 1; j < n;j++){
+            if(a[i]>a[j]){
+                b = a[i];
+                a[i]=a[j];
+                a[j]=b;
+            }
+        }
+    }
+    for (int i = 0; i < n;i++){
+        printf("%d ", a[i]);
+    }
+        printf("\n");
+    }
+    return 0;
+}
