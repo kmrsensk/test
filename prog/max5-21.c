@@ -3,7 +3,7 @@ int main(void)
 {
     int r,h=8;
     double pi = 3.14, sr, s1, s2, v;
-    printf("radius? → ");
+    printf("radius? : ");
     scanf("%d",&r);
     s1=pi*r*r;
     sr=2*pi*r;
@@ -18,7 +18,7 @@ int main(void)
 /*
 {
     int a,b=9;
-    printf("Push any number → ");
+    printf("Push any number : ");
     scanf("%d",&a);
 
     printf("%d * %d = %d\n",a,b,a*b);
